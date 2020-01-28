@@ -9,7 +9,6 @@ import { CompanyCar } from '../../model/company-car';
   styleUrls: ['./company-car.component.css']
 })
 export class CompanyCarComponent implements OnInit {
-  response: any;
   items: any;
 
   constructor(private companyCarService: CompanyCarService) {
