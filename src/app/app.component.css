@@ -1,0 +1,56 @@
+h1{
+  text-transform: uppercase;
+  size: 24px;
+}
+
+#header{
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.logo{
+  width: 400px;
+}
+
+.logo h1{
+  padding-left: 20px;
+}
+
+.routeLine{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  background-color: #d3d3d3;
+}
+
+.route{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+.route span{
+  cursor: pointer;
+}
+
+#bodyApp{
+  min-height: 78.5vh;
+}
+
+.down_container{
+  background-color: black;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.down_p p{
+  font-size: 70%;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  color: white;
+}

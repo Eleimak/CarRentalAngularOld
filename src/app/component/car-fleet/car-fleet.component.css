@@ -1,0 +1,179 @@
+#fleet{
+  background-color: white;
+}
+#fleet .fleet_container{
+  max-width: 1500px;
+  position: center;
+  margin: 0 auto;
+}
+#fleet .items_container{
+  padding: 32px;
+  background-color: gainsboro;
+}
+
+#fleet .small_cars_container{
+  background-color: white;
+  padding: 25px;
+}
+
+/*#fleet .small_cars_text h2{*/
+/*  margin-bottom: 0;*/
+/*}*/
+
+#fleet .info_panel{
+  margin-top: 30px;
+  background-color: white;
+}
+
+#fleet .info_panel_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+#fleet .info_panel_container_img{
+  background-image: url("src/app/component/car-fleet/img/fiat-500-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 30px;
+  width: 1200px;
+}
+
+#fleet .groupA_text{
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  orphans: 2;
+  text-align: left;
+  text-indent: 0px;
+  text-transform: none;
+  white-space: pre-wrap;
+  widows: 2;
+  word-spacing: 0px;
+  -webkit-text-stroke-width: 0px;
+  background-color: rgb(255, 255, 255);
+  display: inline !important;
+  float: none;
+}
+
+.second_info .info_panel_container_img2{
+  background-image: url("src/app/component/car-fleet/img/vw-polo-5door-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 30px;
+  width: 1100px;
+}
+
+.info_panel_container_img3{
+  background-image: url("src/app/component/car-fleet/img/vw-polo-5door-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 -70px;
+  width: 710px;
+}
+
+.info_panel_container_text3{
+  margin-left: -90px;
+}
+
+.mid_size_containers{
+  margin-top: 30px;
+}
+
+.info_panel_container_img4{
+  background-image: url("src/app/component/car-fleet/img/ford-focus-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 30px;
+  width: 710px;
+}
+
+.info_panel_container_img5{
+  background-image: url("src/app/component/car-fleet/img/vw-golf-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 30px;
+  width: 1050px;
+}
+
+.info_panel_container_img6{
+  background-image: url("src/app/component/car-fleet/img/vw-passat-new-eu-sideview-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 -220px;
+  width: 720px;
+}
+
+.info_panel_container_text6{
+  margin-left: -250px;
+}
+
+.info_panel_container_img7{
+  background-image: url("src/app/component/car-fleet/img/audi-a6-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 30px;
+  width: 820px;
+}
+
+.info_panel_container_img8{
+  background-image: url("src/app/component/car-fleet/img/ford-transit-connect-cargo-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 -35px;
+  width: 725px;
+}
+
+.info_panel_container_text8{
+  margin-left: -70px;
+}
+
+.info_panel_container_img9{
+  background-image: url("src/app/component/car-fleet/img/ford-transit-tourneo-passenger-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 -25px;
+  width: 730px;
+}
+
+.info_panel_container_text9{
+  margin-left: -50px;
+}
+
+.info_panel_container_img10{
+  background-image: url("src/app/component/car-fleet/img/vw-transporter-passenger-new-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 -115px;
+  width: 735px;
+}
+
+.info_panel_container_text10{
+  margin-left: -140px;
+}
+
+.info_panel_container_img11{
+  background-image: url("src/app/component/car-fleet/img/vw-tiguan-new-sideview-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 -93px;
+  width: 735px;
+}
+
+.info_panel_container_text11{
+  margin-left: -120px;
+}
+
+.info_panel_container_img12{
+  background-image: url("src/app/component/car-fleet/img/toyota-landcruiser-sideview-feature.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 30px 0 30px;
+  width: 1600px;
+}

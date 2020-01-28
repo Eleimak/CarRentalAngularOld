@@ -1,0 +1,34 @@
+
+<div class="container">
+  <table class="table table-striped table-sm table-bordered table-dark">
+    <thead>
+    <tr class="bg-success">
+      <th>ID</th>
+      <th>Brand</th>
+      <th>Model</th>
+      <th>Type</th>
+      <th>Color</th>
+      <th>Mileage</th>
+      <th>Transmission</th>
+      <th>Year</th>
+      <th>Door</th>
+      <th>Fuel</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of items;">
+      <td>{{item.id}}</td>
+      <td>{{item.brandCar}}</td>
+      <td>{{item.modelCar}}</td>
+      <td>{{item.typeCar}}</td>
+      <td>{{item.carMileage}}</td>
+      <td>{{item.carMileage}}</td>
+      <td>{{item.transmission ? 'Manual': 'Automatic'}}</td>
+      <td>{{item.yearCar}}</td>
+      <td>{{item.door}}</td>
+      <td>{{item.fuel}}</td>
+    </tr>
+
+    </tbody>
+  </table>
+</div>

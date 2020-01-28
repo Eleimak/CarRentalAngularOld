@@ -1,0 +1,31 @@
+<div id="auto">
+  <div class="container autoContainer">
+    <div class="container auto" *ngFor="let item of items;">
+      <div class="autoImg marg">
+        <img src="../../../assets/image/auto/{{item.car.brandCar}}.png">
+      </div>
+      <div class="autoText marg">
+        <div class="textDiv">
+          <p>{{item.car.brandCar}}</p>
+          <p>{{item.car.door}} Doors</p>
+          <p>{{item.car.transmission ? 'Manual': 'Automatic'}}</p>
+        </div>
+        <div class="textDiv">
+          <p>{{item.car.modelCar}}</p>
+          <p>{{item.color}}</p>
+          <p>{{item.car.carMileage}}</p>
+        </div>
+        <div class="textDiv">
+          <p>{{item.car.typeCar}}</p>
+          <p>Cost - {{item.costCar}}</p>
+          <p>{{item.car.fuel}}</p>
+        </div>
+        <div class="textDiv">
+          <p>{{item.car.yearCar}}</p>
+          <p>Repair - {{item.repair}}</p>
+          <p>Rent - {{item.rent}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
