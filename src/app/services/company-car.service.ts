@@ -11,6 +11,6 @@ export class CompanyCarService {
   constructor(private http: HttpClient) { }
 
   getAll() {
-    return this.http.get('http://localhost:8080/rest/company/get/list');
+    return this.http.get('https://rentalscarangular.herokuapp.com/rest/company/get/list');
   }
 }
