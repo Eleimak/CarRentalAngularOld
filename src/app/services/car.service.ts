@@ -11,6 +11,6 @@ export class CarService {
   }
 
   getAll() {
-    return this.http.get('http://localhost:8080/rest/car/get/list');
+    return this.http.get('https://rentalscarangular.herokuapp.com/rest/car/get/list');
   }
 }
